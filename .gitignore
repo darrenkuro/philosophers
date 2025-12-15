@@ -1,0 +1,62 @@
+# Env
+.env
+.env.*
+
+# macOS
+.DS_Store
+Icon?
+
+# VSCode
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# JetBrains IDEs
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Rust
+target/
+
+# Nix
+result/
+
+# C/C++
+*.o
+*.d
+*.a
+*.so
+*.out
+
+# Obsidian vault cache
+.obsidian/workspace
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# GitHub
+.github/*
+!.github/workflows/
+!.github/ISSUE_TEMPLATE/
+!.github/PULL_REQUEST_TEMPLATE.md
+
+# Build
+philo/philo
+philo_bonus/philo_bonus
